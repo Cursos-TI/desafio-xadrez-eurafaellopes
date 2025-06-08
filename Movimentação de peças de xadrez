@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    for (int i = 0; i < 1; i++) { // Movimento vertical
+        printf("Movendo Cavalo para Baixo\n");
+        int j = 0;
+        while (j < 1) { // Movimento horizontal
+            printf("Movendo Cavalo para a Esquerda\n");
+            j++;
+        }
+    }
+    return 0;
+}
